@@ -1,0 +1,33 @@
+# Byte-compiled / compiled Python
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# Local settings / secrets
+.env
+
+# Vector store persistence
+chroma_db/
+
+# Logs / cache
+*.log
+.coverage
+.cache/
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
